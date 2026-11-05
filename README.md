@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Role-Data%20Analyst-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-E--commerce-FF5A5F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Travle-FF5A5F?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Stack-Python%20%7C%20Power%20BI%20%7C%20Excel-F2C811?style=for-the-badge" />
 </p>
 
@@ -69,7 +69,7 @@ I am a **Data Analyst** specializing in **marketplace analytics and Product/ Ope
 
 | 🏘️ Listings | 👤 Hosts | 🌍 Markets | 💰 Avg Price | 💵 Median Price | ⭐ Avg Rating | 💬 Reviews |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **7,559** | **6,518** | **106** | **13,868** | **8,486** | **4.86** | **419,074** |
+| **8000** | **6,518** | **106** | **13,868** | **8,486** | **4.86** | **419,074** |
 
 > 💡 Prices are in the source dataset's currency units.
 
