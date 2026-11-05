@@ -11,7 +11,7 @@
 
 ## 🎯 **About Me**
 
-I am a **Data Analyst** specializing in **E-commerce and marketplace analytics**.
+I am a **Data Analyst** specializing in **marketplace analytics and Product/ Operations Analytics**.
 
 - 🔍 **Decision first.** Every analysis starts with a business question.
 - 🧹 **Clean data, trusted insights.** I validate before I visualize.
