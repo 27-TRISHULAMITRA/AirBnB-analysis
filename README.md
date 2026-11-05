@@ -17,8 +17,11 @@ Excel (Pivot Tables, formulas, charts)
 🛒 Domain Expertise
 E-commerce analytics: pricing, ratings, reviews, segmentation
 Marketplace analysis: supply, seller performance, product mix
+
 📌 GitHub Stats
+
 <p align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&hide_border=true" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=default&hide_border=true" /> </p>
+
 🏠 Featured Project: Airbnb Listings — Cleaning & Visual Analysis
 
 Business Problem: Raw listing data was inconsistent. Pricing, quality, host and amenity drivers were unclear. Tech Stack: Python · Power BI · DAX · Excel Output: 5-page interactive Power BI report.
