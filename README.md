@@ -7,7 +7,7 @@
 
 
 
-[**Business report (PDF)**]
+[**Business report (PDF)**](reports/Airbnb_Business_Report.pdf) 
 · [**Power BI file (.pbix)**](Airbnb.pbix)
 
 ---
@@ -76,13 +76,17 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 
 ## **Dashboard Preview**
 
-> **How to add your dashboard screenshots:** in Power BI Desktop use *File > Export > Export to PDF*, or take a screenshot of each page. Save the five images into `images/dashboard/` using the exact names below. They will appear automatically once pushed to GitHub.
 
 ### **Page 1: Global Overview**
 
-![Global Overview dashboard](images/dashboard/01_global_overview.png)
+**[Global Overview dashboard]**
 
-*Slot: `images/dashboard/01_global_overview.png`. Visuals: KPI cards, country map, price vs rating scatter, average price by country.*
+<img width="1174" height="813" alt="Screenshot 2026-11-06 001449" src="https://github.com/user-attachments/assets/f0dc3872-82dd-4112-8654-79d32ff6cfc9" />
+
+
+
+----
+
 
 | 7,561 listings | 6,520 hosts | 108 countries | 419,074 reviews | 13,868 avg price | 4.86 avg rating |
 |---|---|---|---|---|---|
@@ -91,11 +95,19 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 
 **Statistical insight:** Price is extremely right-skewed (skewness **20.6**): mean 13,868 vs median 8,486 (mean **+63%**), P90 28,529, P99 91,341. Report medians. Across countries with 30+ listings, price and rating correlate at Spearman rho = **0.38** (p = 0.014).
 
+
+
+----
+
 ### **Page 2: Value and Pricing**
 
-![Value and Pricing dashboard](images/dashboard/02_value_pricing.png)
+[Value and Pricing dashboard]
 
-*Slot: `images/dashboard/02_value_pricing.png`. Visuals: price bucket slicer, High Value Score, price per guest, price tier charts.*
+
+<img width="1164" height="805" alt="Screenshot 2026-11-06 001700" src="https://github.com/user-attachments/assets/036a5990-cd5e-40ba-b5dd-828457492eb9" />
+
+
+----
 
 | Tier | Share of listings | Avg price | Avg rating |
 |---|---|---|---|
@@ -107,11 +119,20 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 
 **Statistical insight:** Price and rating correlate at Spearman rho = **0.19** (p < 0.001); a Kruskal-Wallis test across tiers gives H = **190.4** (p < 0.001). The difference is real but small: price explains only about **3.5%** of rating variation (rho squared). **71.6%** of listings are rated 4.8+, a ceiling effect.
 
+
+
+----
+
 ### **Page 3: Amenities and Property Mix**
 
-![Amenities and Property Mix dashboard](images/dashboard/03_amenities_property_mix.png)
+[Amenities and Property Mix dashboard]
 
-*Slot: `images/dashboard/03_amenities_property_mix.png`. Visuals: amenity and country slicers, bedroom donut, guests vs price scatter, amenity bars.*
+
+<img width="1171" height="810" alt="Screenshot 2026-11-06 001748" src="https://github.com/user-attachments/assets/62ff6c49-952b-47a2-b719-0c81973e0b5f" />
+
+
+
+----
 
 | Amenity | Prevalence | Median price with | Median price without | Premium |
 |---|---|---|---|---|
@@ -125,11 +146,17 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 
 **Statistical insight:** Bedrooms vs price: Spearman rho = **0.45**. Premium differences are significant (Mann-Whitney p < 0.001 for hot tub, pool, water view, TV, Wifi). Listings with each premium amenity still average **4.85 to 4.87** in rating, in line with the 4.86 overall, so amenities lift price, not rating. Median price per guest is flat (about 2,000 to 2,300) up to 4 bedrooms.
 
+----
+
 ### **Page 4: Host Analysis**
 
-![Host Analysis dashboard](images/dashboard/04_host_analysis.png)
+[Host Analysis dashboard]
 
-*Slot: `images/dashboard/04_host_analysis.png`. Visuals: host and listing KPIs, top hosts, host rating and listing combo, country bars.*
+<img width="1191" height="805" alt="Screenshot 2026-11-06 001554" src="https://github.com/user-attachments/assets/2fed8ca2-8f37-4bb4-af86-17472a17f573" />
+
+
+
+----
 
 | Single-listing hosts | Multi-listing hosts | Listings held by multi-listing hosts | Largest host | Top 10 hosts' share |
 |---|---|---|---|---|
@@ -139,11 +166,17 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 
 **Statistical insight:** Ratings differ between host types (Mann-Whitney p < 0.001) but by only **0.017 points** (4.844 vs 4.861), a negligible effect. Reviews per listing: 51.7 for multi-listing hosts vs 56.6 for single-listing hosts.
 
+
+----
+
 ### **Page 5: Country Deep-Dive**
 
-![Country Deep-Dive dashboard](images/dashboard/05_country_deep_dive.png)
+[Country Deep-Dive dashboard]
 
-*Slot: `images/dashboard/05_country_deep_dive.png`. Visuals: price by bedrooms and country matrix, country slicer, ranking table.*
+<img width="1186" height="804" alt="Screenshot 2026-11-06 001519" src="https://github.com/user-attachments/assets/d73a3350-3a90-49b7-ada9-d4e97acc4cde" />
+
+
+----
 
 | Priciest (30+ listings) | Avg price | Cheapest (30+ listings) | Avg price |
 |---|---|---|---|
@@ -168,6 +201,9 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 6. **Hosts are small and fragmented.** 89.2% have one listing and the top 10 hosts hold 1.0% of supply.
 7. **Ratings are saturated.** 71.6% of listings score 4.8 or higher, so ratings alone cannot rank quality.
 
+
+----
+
 ## **Business Recommendations**
 
 | Insight | Recommended action |
@@ -181,6 +217,8 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 | 89.2% single-listing hosts, 10.8% of hosts hold 23.1% of listings | Build onboarding for small hosts; monitor quality on multi-listing hosts |
 | Reviews concentrated in top 20% of listings | Create review-nudge flows to lift newer listings |
 | Row duplication in the data model (see below) | Split into Listings and Amenities tables and fix the DAX measures before wider sharing |
+
+----
 
 ## **Data Quality and Limitations**
 
@@ -197,6 +235,8 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 - **Data cleaning applied:** country names were trimmed of stray spaces; 1 rating above 5 (value 40) was excluded from rating statistics; 2 listings with no price were excluded from price statistics.
 - **Association, not causation.** Amenity premiums and country comparisons are descriptive; larger homes and premium markets also differ in other ways.
 - **Small markets excluded from rankings.** Country rankings require 30+ listings.
+  
+----
 
 ## **Tools Used**
 
@@ -205,15 +245,17 @@ An end-to-end marketplace analysis of **7,561 Airbnb listings** from **6,520 hos
 - **Python (pandas, SciPy):** listing-level validation, Spearman, Kruskal-Wallis and Mann-Whitney tests
 - **Statistics:** correlation, non-parametric hypothesis tests, skewness
 
+----
+
 ## **Repository Structure**
 
-```
 AirBnB-analysis/
-├── README.md
+
 ├── Airbnb.pbix
 ├── reports/
-│   └── Airbnb_Business_Report.pdf
-└── images/
+└── Airbnb_Business_Report.pdf
+├── README.md  
+└── airbnb.ppt/
     ├── airbnb.png
     └── dashboard/
         ├── 01_global_overview.png
@@ -221,34 +263,17 @@ AirBnB-analysis/
         ├── 03_amenities_property_mix.png
         ├── 04_host_analysis.png
         └── 05_country_deep_dive.png
+
+
 ```
 
 ---
 
-**Author:** Trishula Mitra · Data Analyst · Kolkata, India
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Author:** Trishula Mitra · Data Analyst 
 
 
 - 💬 **Ask me about:** Power BI dashboards, data cleaning, pricing analysis
 
 ---
 
-<p align="center"><i>Data tells the story. I make it actionable.</i></p>
+Data tells the story. I make it actionable.
